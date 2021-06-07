@@ -1,4 +1,4 @@
-with payment as (
+with payments as (
 
     select
     id as payment_id,
@@ -13,4 +13,4 @@ with payment as (
     from raw.stripe.payment 
 )
 
-select * from payment
+select * from payments
